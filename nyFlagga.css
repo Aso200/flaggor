@@ -1,0 +1,62 @@
+body{
+    background-color: goldenrod 
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+
+    
+
+}   
+h1{
+    text-align: center;
+    color: aqua;
+    font-style: italic;
+    
+}
+
+#country,#capital, #folk{
+    color: yellow;
+    font-style: italic;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+    
+}
+.knapp{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: red;
+}
+
+
+
+
+
+    
+
+
